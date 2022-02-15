@@ -1,3 +1,2 @@
 # audio-amplifier-pcb
-by Garth & Sergio
-A PCB design for a class D audio amplifier. Designed in EAGLE.
+A PCB design for a class D audio amplifier. Designed in EAGLE by Garth Verdeflor & Sergio Bobadilla.

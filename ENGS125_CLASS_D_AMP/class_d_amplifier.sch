@@ -95,30 +95,6 @@ Creation date: 9/12/2017</description>
 <rectangle x1="-0.81" y1="1.05" x2="-0.55" y2="1.76" layer="29"/>
 <rectangle x1="-0.67" y1="-0.83" x2="0.68" y2="0.83" layer="29"/>
 </package>
-<package name="LTC6992">
-<description>Package/footprint for LTC6992. Date created: 10/4/2017</description>
-<smd name="1" x="-0.5" y="-1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="2" x="0" y="-1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="3" x="0.5" y="-1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="6" x="-0.5" y="1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="5" x="0" y="1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="4" x="0.5" y="1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<text x="-1.2" y="-1.36" size="0.6096" layer="27" rot="R90">&gt;Value</text>
-<text x="1.77" y="-1.36" size="0.6096" layer="25" rot="R90">&gt;Name</text>
-<wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1" y1="1.5" x2="1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.127" layer="21"/>
-<smd name="7" x="0" y="0" dx="1.3" dy="1.5" layer="1" stop="no" cream="no"/>
-<wire x1="-0.8" y1="-0.9" x2="-0.3" y2="-0.9" width="0.127" layer="21"/>
-<rectangle x1="-0.63" y1="1.07" x2="-0.37" y2="1.78" layer="29"/>
-<rectangle x1="-0.13" y1="1.07" x2="0.13" y2="1.78" layer="29"/>
-<rectangle x1="0.37" y1="1.07" x2="0.63" y2="1.78" layer="29"/>
-<rectangle x1="-0.63" y1="-1.78" x2="-0.37" y2="-1.07" layer="29"/>
-<rectangle x1="-0.13" y1="-1.78" x2="0.13" y2="-1.07" layer="29"/>
-<rectangle x1="0.37" y1="-1.78" x2="0.63" y2="-1.07" layer="29"/>
-<rectangle x1="-0.65" y1="-0.75" x2="0.65" y2="0.75" layer="29"/>
-</package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
@@ -223,23 +199,6 @@ Creation date: 9/12/2017</description>
 <text x="-10.16" y="12.7" size="1.778" layer="94">&gt;NAME</text>
 <text x="-10.16" y="-15.24" size="1.778" layer="94">&gt;Value</text>
 </symbol>
-<symbol name="LTC6992">
-<description>Schematic component for Linear Technology LTC6992 (DCB 6 lead package). It is a silicon oscillator with an easy-to-use
-analog voltage-controlled pulse width modulation (PWM) capability.
-Created: 9/12/2017</description>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<pin name="V+" x="-15.24" y="7.62" length="middle"/>
-<pin name="DIV" x="-15.24" y="0" length="middle"/>
-<pin name="SET" x="-15.24" y="-7.62" length="middle"/>
-<pin name="MOD" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="GND" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="OUT" x="15.24" y="7.62" length="middle" rot="R180"/>
-<text x="-10.16" y="12.7" size="1.778" layer="94">&gt;Name</text>
-<text x="-10.16" y="-12.7" size="1.778" layer="94">&gt;Value</text>
-</symbol>
 <symbol name="GND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
@@ -337,27 +296,6 @@ Date created: 10/4/2017</description>
 <connect gate="G$1" pin="TS" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="7"/>
 <connect gate="G$1" pin="VLOGIC" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LTC6992" prefix="U">
-<description>LTC6992 is a silicon oscillator with an easy-to-use analog voltage-controlled pulse width modulation (PWM) capability.</description>
-<gates>
-<gate name="G$1" symbol="LTC6992" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LTC6992">
-<connects>
-<connect gate="G$1" pin="DIV" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5 7"/>
-<connect gate="G$1" pin="MOD" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="SET" pad="3"/>
-<connect gate="G$1" pin="V+" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4848,6 +4786,53 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="4.445" y1="-6.35" x2="-10.16" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="-6.35" x2="-10.16" y2="6.35" width="0.127" layer="21"/>
 </package>
+<package name="LTC6992">
+<description>Package/footprint for LTC6992. Date created: 10/4/2017</description>
+<smd name="1" x="-0.5" y="-1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0" y="-1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.5" y="-1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="6" x="-0.5" y="1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="5" x="0" y="1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.5" y="1.425" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
+<text x="-1.2" y="-1.36" size="0.6096" layer="27" rot="R90">&gt;Value</text>
+<text x="1.77" y="-1.36" size="0.6096" layer="25" rot="R90">&gt;Name</text>
+<wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1" y1="1.5" x2="1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.127" layer="21"/>
+<smd name="7" x="0" y="0" dx="1.3" dy="1.5" layer="1" stop="no" cream="no"/>
+<wire x1="-0.8" y1="-0.9" x2="-0.3" y2="-0.9" width="0.127" layer="21"/>
+<rectangle x1="-0.63" y1="1.07" x2="-0.37" y2="1.78" layer="29"/>
+<rectangle x1="-0.13" y1="1.07" x2="0.13" y2="1.78" layer="29"/>
+<rectangle x1="0.37" y1="1.07" x2="0.63" y2="1.78" layer="29"/>
+<rectangle x1="-0.63" y1="-1.78" x2="-0.37" y2="-1.07" layer="29"/>
+<rectangle x1="-0.13" y1="-1.78" x2="0.13" y2="-1.07" layer="29"/>
+<rectangle x1="0.37" y1="-1.78" x2="0.63" y2="-1.07" layer="29"/>
+<rectangle x1="-0.65" y1="-0.75" x2="0.65" y2="0.75" layer="29"/>
+</package>
+<package name="TSOT23-6">
+<description>&lt;b&gt;S6 Package 6-Lead Plastic TSOT-23&lt;/b&gt;&lt;p&gt;
+Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
+<wire x1="1.422" y1="-0.781" x2="-1.423" y2="-0.781" width="0.1524" layer="51"/>
+<wire x1="-1.423" y1="-0.781" x2="-1.423" y2="0.781" width="0.1524" layer="21"/>
+<wire x1="-1.423" y1="0.781" x2="1.422" y2="0.781" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="0.781" x2="1.422" y2="-0.781" width="0.1524" layer="21"/>
+<circle x="-1.15" y="-0.5" radius="0.1" width="0" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="2" x="0" y="-1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="5" x="0" y="1.3" dx="0.62" dy="1.22" layer="1"/>
+<smd name="6" x="-0.95" y="1.3" dx="0.62" dy="1.22" layer="1"/>
+<text x="2.8575" y="-1.5875" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-1.5875" y="-1.5875" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-1.175" y1="-1.4" x2="-0.725" y2="-0.8" layer="51"/>
+<rectangle x1="-0.225" y1="-1.4" x2="0.225" y2="-0.8" layer="51"/>
+<rectangle x1="0.725" y1="-1.4" x2="1.175" y2="-0.8" layer="51"/>
+<rectangle x1="0.725" y1="0.8" x2="1.175" y2="1.4" layer="51"/>
+<rectangle x1="-0.225" y1="0.8" x2="0.225" y2="1.4" layer="51"/>
+<rectangle x1="-1.175" y1="0.8" x2="-0.725" y2="1.4" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHD2">
@@ -4871,6 +4856,23 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-0.6" y="-4.8" size="0.8128" layer="95">&gt;Name</text>
 <circle x="-8.636" y="0.254" radius="2.54" width="0.254" layer="94"/>
 <pin name="IN" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="LTC6992">
+<description>Schematic component for Linear Technology LTC6992 (DCB 6 lead package). It is a silicon oscillator with an easy-to-use
+analog voltage-controlled pulse width modulation (PWM) capability.
+Created: 9/12/2017</description>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<pin name="V+" x="-15.24" y="7.62" length="middle"/>
+<pin name="DIV" x="-15.24" y="0" length="middle"/>
+<pin name="SET" x="-15.24" y="-7.62" length="middle"/>
+<pin name="MOD" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="OUT" x="15.24" y="7.62" length="middle" rot="R180"/>
+<text x="-10.16" y="12.7" size="1.778" layer="94">&gt;Name</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="94">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4907,6 +4909,40 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="LTC6992" prefix="U">
+<description>LTC6992 is a silicon oscillator with an easy-to-use analog voltage-controlled pulse width modulation (PWM) capability.</description>
+<gates>
+<gate name="G$1" symbol="LTC6992" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DCB" package="LTC6992">
+<connects>
+<connect gate="G$1" pin="DIV" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5 7"/>
+<connect gate="G$1" pin="MOD" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="SET" pad="3"/>
+<connect gate="G$1" pin="V+" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TSOT-23" package="TSOT23-6">
+<connects>
+<connect gate="G$1" pin="DIV" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="MOD" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="SET" pad="3"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4920,7 +4956,6 @@ Source: AVX .. aphvc.pdf</description>
 </classes>
 <parts>
 <part name="U2" library="Engs125_library" deviceset="LTC4449" device=""/>
-<part name="U1" library="Engs125_library" deviceset="LTC6992" device=""/>
 <part name="SUPPLY1" library="Engs125_library" deviceset="GND" device=""/>
 <part name="C3" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
 <part name="C4" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
@@ -4949,6 +4984,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY8" library="Engs125_library" deviceset="GND" device=""/>
 <part name="J5" library="Engs125_lib_UPDATEFeb22" deviceset="BANANA_JACK_CT3151" device=""/>
 <part name="J6" library="Engs125_lib_UPDATEFeb22" deviceset="BANANA_JACK_CT3151" device=""/>
+<part name="U1" library="Engs125_lib_UPDATEFeb22" deviceset="LTC6992" device="TSOT-23"/>
 </parts>
 <sheets>
 <sheet>
@@ -4965,10 +5001,6 @@ Voltage Ripple: 100mVpp
 <instance part="U2" gate="G$1" x="81.28" y="68.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="91.44" y="81.28" size="1.778" layer="97" rot="MR0"/>
 <attribute name="VALUE" x="91.44" y="53.34" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="U1" gate="G$1" x="20.32" y="53.34" smashed="yes">
-<attribute name="NAME" x="10.16" y="66.04" size="1.778" layer="97"/>
-<attribute name="VALUE" x="10.16" y="40.64" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="-12.7" y="43.18" smashed="yes">
 <attribute name="VALUE" x="-14.605" y="40.005" size="1.778" layer="96"/>
@@ -5073,15 +5105,19 @@ Voltage Ripple: 100mVpp
 <attribute name="VALUE" x="198.82" y="67.62" size="0.8128" layer="96" rot="MR0"/>
 <attribute name="NAME" x="198.72" y="66.32" size="0.8128" layer="95" rot="MR0"/>
 </instance>
+<instance part="U1" gate="G$1" x="20.32" y="53.34" smashed="yes">
+<attribute name="NAME" x="10.16" y="66.04" size="1.778" layer="95"/>
+<attribute name="VALUE" x="10.16" y="40.64" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SET"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="45.72" x2="2.54" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="SET"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5089,7 +5125,6 @@ Voltage Ripple: 100mVpp
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="-7.62" y1="45.72" x2="-12.7" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="DIV"/>
 <wire x1="5.08" y1="53.34" x2="-12.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="53.34" x2="-12.7" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-12.7" y="45.72"/>
@@ -5097,6 +5132,7 @@ Voltage Ripple: 100mVpp
 <wire x1="-7.62" y1="60.96" x2="-12.7" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="60.96" x2="-12.7" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-12.7" y="53.34"/>
+<pinref part="U1" gate="G$1" pin="DIV"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -5139,11 +5175,6 @@ Voltage Ripple: 100mVpp
 <wire x1="114.3" y1="60.96" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="43.18" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="50.8" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
@@ -5161,7 +5192,6 @@ Voltage Ripple: 100mVpp
 </net>
 <net name="VGG" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="V+"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="60.96" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
@@ -5186,14 +5216,15 @@ Voltage Ripple: 100mVpp
 <label x="53.34" y="71.12" size="1.778" layer="95"/>
 <label x="53.34" y="66.04" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="IN"/>
+<pinref part="U1" gate="G$1" pin="V+"/>
 </segment>
 </net>
 <net name="VPWM" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="OUT"/>
 <pinref part="U2" gate="G$1" pin="IN"/>
 <wire x1="35.56" y1="60.96" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
 <label x="53.34" y="60.96" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5278,10 +5309,17 @@ Voltage Ripple: 100mVpp
 </net>
 <net name="VREF" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="MOD"/>
 <wire x1="35.56" y1="45.72" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
 <label x="50.8" y="45.72" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="U1" gate="G$1" pin="MOD"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<wire x1="43.18" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
 </net>
 </nets>

@@ -4960,16 +4960,18 @@ Created: 9/12/2017</description>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
 <pin name="G" x="-12.7" y="0" length="middle"/>
-<pin name="S" x="5.08" y="-12.7" length="middle" rot="R90"/>
-<pin name="D" x="5.08" y="10.16" length="middle" rot="R270"/>
+<pin name="S" x="5.08" y="-12.7" visible="pin" length="middle" rot="R90"/>
+<pin name="D" x="5.08" y="10.16" visible="pin" length="middle" rot="R270"/>
 <text x="-7.62" y="5.08" size="1.778" layer="96">&gt;Name</text>
 <text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;Value</text>
-<pin name="S1" x="7.62" y="-12.7" length="middle" rot="R90"/>
-<pin name="S2" x="10.16" y="-12.7" length="middle" rot="R90"/>
+<pin name="S1" x="7.62" y="-12.7" visible="off" length="middle" rot="R90"/>
+<pin name="S2" x="10.16" y="-12.7" visible="off" length="middle" rot="R90"/>
 <wire x1="5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<pin name="D1" x="7.62" y="10.16" length="middle" rot="R270"/>
-<pin name="D2" x="10.16" y="10.16" length="middle" rot="R270"/>
-<wire x1="5.08" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="D1" x="7.62" y="10.16" visible="off" length="middle" rot="R270"/>
+<pin name="D2" x="10.16" y="10.16" visible="off" length="middle" rot="R270"/>
+<pin name="D3" x="12.7" y="10.16" visible="off" length="middle" rot="R270"/>
+<pin name="D4" x="15.24" y="10.16" visible="off" length="middle" rot="R270"/>
+<wire x1="5.08" y1="5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5100,6 +5102,8 @@ Created: 9/12/2017</description>
 <connect gate="G$1" pin="D" pad="5"/>
 <connect gate="G$1" pin="D1" pad="8"/>
 <connect gate="G$1" pin="D2" pad="9"/>
+<connect gate="G$1" pin="D3" pad="6"/>
+<connect gate="G$1" pin="D4" pad="7"/>
 <connect gate="G$1" pin="G" pad="4"/>
 <connect gate="G$1" pin="S" pad="1"/>
 <connect gate="G$1" pin="S1" pad="2"/>
@@ -5472,6 +5476,12 @@ Voltage Ripple: 100mVpp
 <pinref part="M1" gate="G$1" pin="S1"/>
 <wire x1="132.08" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
 <junction x="132.08" y="81.28"/>
+<pinref part="M2" gate="G$1" pin="D4"/>
+<wire x1="134.62" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
+<junction x="134.62" y="76.2"/>
+<pinref part="M2" gate="G$1" pin="D3"/>
+<wire x1="137.16" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
+<junction x="137.16" y="76.2"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -5495,6 +5505,12 @@ Voltage Ripple: 100mVpp
 <pinref part="M1" gate="G$1" pin="D1"/>
 <wire x1="132.08" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
 <junction x="132.08" y="104.14"/>
+<pinref part="M1" gate="G$1" pin="D4"/>
+<wire x1="134.62" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
+<junction x="134.62" y="104.14"/>
+<pinref part="M1" gate="G$1" pin="D3"/>
+<wire x1="137.16" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
+<junction x="137.16" y="104.14"/>
 </segment>
 </net>
 <net name="BG" class="0">

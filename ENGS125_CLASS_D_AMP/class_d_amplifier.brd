@@ -16,7 +16,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -1687,14 +1687,14 @@ design rules under a new name.</description>
 <element name="M2" library="Engs125_lib_UPDATEFeb22" package="PG-TDSON-8" value="BSC050NE2LSATMA1" x="47.371" y="29.591" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.18835" y="34.66365" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
-<element name="J5" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="84.963" y="38.354" smashed="yes">
-<attribute name="NAME" x="74.803" y="29.464" size="2.1844" layer="25" font="vector"/>
+<element name="J5" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="79.375" y="35.941" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.089" y="28.956" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="J6" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="84.836" y="21.717" smashed="yes">
-<attribute name="NAME" x="74.676" y="12.827" size="2.1844" layer="25" font="vector"/>
+<element name="J6" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="79.375" y="19.812" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.835" y="12.192" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="C8" library="Engs125_library" package="C0805" value="0.1u" x="58.801" y="30.734" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.119" y="31.75" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="63.119" y="31.75" size="1.016" layer="25" font="fixed" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -1860,16 +1860,12 @@ design rules under a new name.</description>
 <vertex x="50.673" y="33.528"/>
 <vertex x="50.673" y="40.513"/>
 <vertex x="50.8" y="40.64"/>
-<vertex x="69.088" y="40.64"/>
-<vertex x="70.612" y="39.116"/>
-<vertex x="70.612" y="32.893"/>
-<vertex x="68.707" y="30.988"/>
+<vertex x="82.55" y="40.64"/>
+<vertex x="83.82" y="39.37"/>
+<vertex x="83.82" y="32.131"/>
+<vertex x="82.677" y="30.988"/>
 <vertex x="53.213" y="30.988"/>
 </polygon>
-<wire x1="87.513" y1="35.804" x2="87.513" y2="40.904" width="0" layer="19" extent="1-1"/>
-<wire x1="82.413" y1="40.904" x2="87.513" y2="40.904" width="0" layer="19" extent="1-1"/>
-<wire x1="82.413" y1="35.804" x2="87.513" y2="35.804" width="0" layer="19" extent="1-1"/>
-<wire x1="58.801" y1="31.684" x2="82.413" y2="35.804" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="C7" pad="1"/>
@@ -1884,9 +1880,9 @@ design rules under a new name.</description>
 <contactref element="M1" pad="7"/>
 <contactref element="M1" pad="6"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="35.56" y="20.32"/>
-<vertex x="44.45" y="20.32"/>
-<vertex x="45.085" y="20.955"/>
+<vertex x="35.306" y="6.985"/>
+<vertex x="44.196" y="6.985"/>
+<vertex x="45.085" y="7.874"/>
 <vertex x="45.085" y="25.781"/>
 <vertex x="44.704" y="26.162"/>
 <vertex x="43.688" y="26.162"/>
@@ -1894,7 +1890,7 @@ design rules under a new name.</description>
 <vertex x="42.545" y="30.48"/>
 <vertex x="35.306" y="30.48"/>
 <vertex x="34.417" y="29.591"/>
-<vertex x="34.417" y="21.463"/>
+<vertex x="34.417" y="7.874"/>
 </polygon>
 <via x="41.656" y="24.511" extent="1-16" drill="0.508" diameter="1.27"/>
 <via x="40.005" y="24.511" extent="1-16" drill="0.508" diameter="1.27"/>
@@ -1905,10 +1901,6 @@ design rules under a new name.</description>
 <via x="41.656" y="21.463" extent="1-16" drill="0.508" diameter="1.27"/>
 <via x="40.005" y="21.463" extent="1-16" drill="0.508" diameter="1.27"/>
 <via x="38.481" y="21.463" extent="1-16" drill="0.508" diameter="1.27"/>
-<wire x1="43.19" y1="8.88" x2="43.19" y2="13.98" width="0" layer="19" extent="1-1"/>
-<wire x1="38.09" y1="13.98" x2="43.19" y2="13.98" width="0" layer="19" extent="1-1"/>
-<wire x1="38.09" y1="8.88" x2="43.19" y2="8.88" width="0" layer="19" extent="1-1"/>
-<wire x1="38.481" y1="21.463" x2="38.09" y2="13.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BG">
 <contactref element="U2" pad="3"/>

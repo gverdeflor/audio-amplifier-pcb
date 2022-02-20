@@ -71,6 +71,10 @@
 Class D Audio Amplifier
 Sergio Bobadilla
 Garth Verdeflor</text>
+<text x="24.638" y="52.07" size="1.016" layer="21" font="fixed">AUDIO IN</text>
+<text x="0.508" y="9.779" size="1.016" layer="21" font="fixed">GATE DRIVE SUPPLY</text>
+<text x="63.881" y="17.526" size="1.016" layer="21" font="fixed" rot="R180">INPUT SUPPLY</text>
+<text x="82.423" y="12.827" size="1.016" layer="21" font="fixed" rot="R180">AUDIO OUT</text>
 </plain>
 <libraries>
 <library name="Engs125_library">
@@ -1655,20 +1659,20 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.314" y="33.774" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="JP1" library="Engs125_lib_UPDATEFeb22" package="1X02" value="" x="27.94" y="49.657" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.2702" y="52.9082" size="1.016" layer="25" font="fixed" ratio="10" rot="R180"/>
+<attribute name="NAME" x="24.4602" y="49.0982" size="1.016" layer="25" font="fixed" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="30.48" y="52.832" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J1" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="10.16" y="33.02" smashed="yes">
-<attribute name="NAME" x="0" y="24.13" size="1.016" layer="25" font="fixed"/>
+<attribute name="NAME" x="13.081" y="39.878" size="1.016" layer="25" font="fixed"/>
 </element>
 <element name="J2" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="10.16" y="17.78" smashed="yes">
-<attribute name="NAME" x="0" y="8.89" size="1.016" layer="25" font="fixed"/>
+<attribute name="NAME" x="13.208" y="24.511" size="1.016" layer="25" font="fixed"/>
 </element>
 <element name="J3" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="40.64" y="11.43" smashed="yes" rot="R90">
-<attribute name="NAME" x="49.53" y="15.24" size="1.016" layer="25" font="fixed" rot="R180"/>
+<attribute name="NAME" x="33.782" y="15.621" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="J4" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="57.15" y="11.43" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.04" y="15.24" size="1.016" layer="25" font="fixed" rot="R180"/>
+<attribute name="NAME" x="50.419" y="15.748" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="U1" library="Engs125_lib_UPDATEFeb22" package="TSOT23-6" value="LTC6992TSOT-23" x="28.194" y="34.29" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.7815" y="35.8775" size="1.016" layer="25" font="fixed" ratio="10" rot="R270"/>
@@ -1692,10 +1696,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="51.18835" y="34.66365" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="J5" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="79.375" y="35.941" smashed="yes" rot="R180">
-<attribute name="NAME" x="77.089" y="28.956" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="76.708" y="43.815" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="J6" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="79.375" y="19.812" smashed="yes" rot="R180">
-<attribute name="NAME" x="76.835" y="12.192" size="1.016" layer="25" font="fixed" rot="R180"/>
+<attribute name="NAME" x="76.581" y="27.686" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="C8" library="Engs125_library" package="C0805" value="0.1u" x="58.801" y="30.734" smashed="yes" rot="R270">
 <attribute name="NAME" x="63.119" y="31.75" size="1.016" layer="25" font="fixed" rot="R270"/>

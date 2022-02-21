@@ -5196,7 +5196,7 @@ Created: 9/12/2017</description>
 <vertex x="0.3" y="2.99"/>
 <vertex x="0.27" y="3.13"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="0.75" y="1.59"/>
 <vertex x="1.28" y="1.59"/>
 <vertex x="1.48" y="1.43"/>

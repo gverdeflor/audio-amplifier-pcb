@@ -11,8 +11,8 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
 <layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
 <layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
 <layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
@@ -77,10 +77,11 @@
 <wire x1="89.84" y1="0" x2="89.84" y2="64.76" width="0" layer="20"/>
 <wire x1="89.84" y1="64.76" x2="0" y2="64.76" width="0" layer="20"/>
 <wire x1="0" y1="64.76" x2="0" y2="0" width="0" layer="20"/>
-<text x="2.54" y="55.88" size="1.27" layer="21" font="fixed">ENGS 125 (22W)
+<text x="10.922" y="55.372" size="1.016" layer="21" font="fixed" distance="51">ENGS 125 
+Winter 2022
+Professor Stauth
 Class D Audio Amplifier
-Sergio Bobadilla
-Garth Verdeflor</text>
+</text>
 <text x="24.638" y="52.07" size="1.016" layer="21" font="fixed">AUDIO IN</text>
 <text x="1.651" y="10.414" size="1.016" layer="21" font="fixed">GATE DRIVE SUPPLY</text>
 <text x="63.881" y="17.526" size="1.016" layer="21" font="fixed" rot="R180">INPUT SUPPLY</text>
@@ -465,6 +466,9 @@ Garth Verdeflor</text>
 <vertex x="71.11644375" y="57.15"/>
 <vertex x="71.117678125" y="57.15"/>
 </polygon>
+<text x="2.159" y="2.159" size="1.016" layer="21" font="fixed" distance="51">DESIGNERS:
+Sergio Bobadilla
+Garth Verdeflor</text>
 </plain>
 <libraries>
 <library name="Engs125_library">
@@ -1900,7 +1904,7 @@ chip</description>
 <vertex x="0.3" y="2.99"/>
 <vertex x="0.27" y="3.13"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="0.75" y="1.59"/>
 <vertex x="1.28" y="1.59"/>
 <vertex x="1.48" y="1.43"/>
@@ -2554,7 +2558,7 @@ design rules under a new name.</description>
 <element name="C8" library="Engs125_library" package="C0805" value="0.1u" x="58.801" y="30.734" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.738" y="32.766" size="1.016" layer="25" font="fixed" rot="R270"/>
 </element>
-<element name="U$1" library="Engs125_lib_UPDATEFeb22_with_logo" package="THAYER" value="THAYER" x="72.517" y="50.419" smashed="yes"/>
+<element name="U$1" library="Engs125_lib_UPDATEFeb22_with_logo" package="THAYER" value="THAYER" x="2.794" y="54.483" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">

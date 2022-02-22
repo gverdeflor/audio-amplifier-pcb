@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5524,19 +5524,19 @@ Created: 9/12/2017</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Engs125_lib_NEW_UPDATE_USE_THIS">
+<library name="Engs125_lib_NEW_UPDATE_USE_THIS_V2">
 <packages>
 <package name="LTC4442">
 <smd name="9" x="0" y="0" dx="2.083" dy="2.794" layer="1" rot="R90"/>
-<smd name="2" x="-0.325" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
-<smd name="3" x="0.325" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
-<smd name="4" x="0.975" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
-<smd name="1" x="-0.975" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
-<smd name="7" x="-0.325" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
-<smd name="6" x="0.325" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
-<smd name="5" x="0.975" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
-<smd name="8" x="-0.975" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
-<circle x="-1.05" y="0.9" radius="0.111803125" width="0" layer="21"/>
+<smd name="7" x="-0.325" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="6" x="0.325" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="5" x="0.975" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="8" x="-0.975" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="2" x="-0.325" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="3" x="0.325" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="4" x="0.975" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="1" x="-0.975" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<circle x="-1.194" y="-0.86" radius="0.111803125" width="0" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
@@ -5547,14 +5547,14 @@ Created: 9/12/2017</description>
 </packages>
 <symbols>
 <symbol name="LTC4442">
-<pin name="TG" x="-12.7" y="5.08" length="middle"/>
-<pin name="TS" x="-12.7" y="0" length="middle"/>
-<pin name="BG" x="-12.7" y="-5.08" length="middle"/>
-<pin name="GND" x="-12.7" y="-10.16" length="middle"/>
-<pin name="IN" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="VLOGIC" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="VCC" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="BOOST" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="BOOST" x="-12.7" y="5.08" length="middle"/>
+<pin name="VCC" x="-12.7" y="0" length="middle"/>
+<pin name="VLOGIC" x="-12.7" y="-5.08" length="middle"/>
+<pin name="IN" x="-12.7" y="-10.16" length="middle"/>
+<pin name="GND" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="BG" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="TS" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="TG" x="15.24" y="5.08" length="middle" rot="R180"/>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
@@ -5602,7 +5602,6 @@ Vin max = 38V</description>
 </class>
 </classes>
 <parts>
-<part name="U2" library="Engs125_lib_NEW_UPDATE_USE_THIS" deviceset="LTC4442" device=""/>
 <part name="SUPPLY1" library="Engs125_library" deviceset="GND" device=""/>
 <part name="C3" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
 <part name="C4" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
@@ -5610,7 +5609,6 @@ Vin max = 38V</description>
 <part name="C6" library="Engs125_library" deviceset="C-US" device="" value="0.1u"/>
 <part name="D1" library="Engs125_library" deviceset="DIODE" device="" value="1N5819"/>
 <part name="L1" library="Engs125_library" deviceset="SER2900" device="SER" value="33u"/>
-<part name="SUPPLY2" library="Engs125_library" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="Engs125_library" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="Engs125_library" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="Engs125_library" deviceset="GND" device=""/>
@@ -5644,6 +5642,8 @@ Vin max = 38V</description>
 <part name="JP7" library="Engs125_lib_UPDATEFeb22" deviceset="PINHD-1X1" device=""/>
 <part name="SUPPLY11" library="Engs125_library" deviceset="GND" device=""/>
 <part name="C9" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
+<part name="SUPPLY2" library="Engs125_library" deviceset="GND" device=""/>
+<part name="U2" library="Engs125_lib_NEW_UPDATE_USE_THIS_V2" deviceset="LTC4442" device="" value="LTC4442-MSOP8"/>
 </parts>
 <sheets>
 <sheet>
@@ -5660,10 +5660,6 @@ Voltage Ripple: 100mVpp
 <text x="114.3" y="45.72" size="1.778" layer="97" rot="R90">BG Probe</text>
 </plain>
 <instances>
-<instance part="U2" gate="G$1" x="83.82" y="71.12" smashed="yes" rot="MR0">
-<attribute name="NAME" x="93.98" y="83.82" size="1.778" layer="97" rot="MR0"/>
-<attribute name="VALUE" x="93.98" y="55.88" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="SUPPLY1" gate="GND" x="-20.32" y="38.1" smashed="yes">
 <attribute name="VALUE" x="-22.225" y="34.925" size="1.778" layer="96"/>
 </instance>
@@ -5690,9 +5686,6 @@ Voltage Ripple: 100mVpp
 <instance part="L1" gate="G$1" x="152.4" y="78.74" smashed="yes">
 <attribute name="VALUE" x="147.32" y="73.66" size="1.27" layer="96"/>
 <attribute name="NAME" x="147.32" y="82.296" size="1.27" layer="95"/>
-</instance>
-<instance part="SUPPLY2" gate="GND" x="43.18" y="50.8" smashed="yes">
-<attribute name="VALUE" x="41.275" y="47.625" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="35.56" y="17.78" smashed="yes">
 <attribute name="VALUE" x="33.655" y="14.605" size="1.778" layer="96"/>
@@ -5748,7 +5741,7 @@ Voltage Ripple: 100mVpp
 <attribute name="VALUE" x="135.255" y="128.905" size="1.778" layer="96"/>
 </instance>
 <instance part="U1" gate="G$1" x="20.32" y="53.34" smashed="yes">
-<attribute name="NAME" x="10.16" y="66.04" size="1.778" layer="95"/>
+<attribute name="NAME" x="10.16" y="66.548" size="1.778" layer="95"/>
 <attribute name="VALUE" x="10.16" y="40.64" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="-7.62" y="40.64" smashed="yes" rot="R90">
@@ -5813,6 +5806,13 @@ Voltage Ripple: 100mVpp
 <instance part="C9" gate="G$1" x="119.38" y="121.92" smashed="yes">
 <attribute name="NAME" x="120.396" y="122.555" size="1.778" layer="95"/>
 <attribute name="VALUE" x="120.396" y="117.729" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY2" gate="GND" x="40.64" y="48.26" smashed="yes">
+<attribute name="VALUE" x="38.735" y="45.085" size="1.778" layer="96"/>
+</instance>
+<instance part="U2" gate="G$1" x="81.28" y="71.12" smashed="yes">
+<attribute name="NAME" x="73.66" y="79.248" size="1.778" layer="95"/>
+<attribute name="VALUE" x="73.66" y="55.88" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5898,8 +5898,8 @@ Voltage Ripple: 100mVpp
 <segment>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <wire x1="99.06" y1="58.42" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="99.06" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
@@ -5914,6 +5914,12 @@ Voltage Ripple: 100mVpp
 <pinref part="JP7" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="139.7" x2="205.74" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="35.56" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="53.34" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="VGG" class="0">
@@ -5932,9 +5938,7 @@ Voltage Ripple: 100mVpp
 <pinref part="D1" gate="G$1" pin="P$1"/>
 <wire x1="43.18" y1="99.06" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
 <junction x="43.18" y="99.06"/>
-<pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="43.18" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VLOGIC"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <junction x="43.18" y="71.12"/>
@@ -5943,11 +5947,12 @@ Voltage Ripple: 100mVpp
 <label x="53.34" y="66.04" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="IN"/>
 <pinref part="U1" gate="G$1" pin="V+"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
+<pinref part="U2" gate="G$1" pin="VLOGIC"/>
 </segment>
 </net>
 <net name="VPWM" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="IN"/>
 <wire x1="35.56" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <label x="53.34" y="60.96" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="OUT"/>
@@ -5956,16 +5961,17 @@ Voltage Ripple: 100mVpp
 <wire x1="53.34" y1="60.96" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
 <junction x="53.34" y="60.96"/>
+<pinref part="U2" gate="G$1" pin="IN"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="BOOST" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="P$2"/>
-<pinref part="U2" gate="G$1" pin="BOOST"/>
 <wire x1="68.58" y1="99.06" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="99.06"/>
+<pinref part="U2" gate="G$1" pin="BOOST"/>
 </segment>
 </net>
 <net name="VSW" class="0">
@@ -5977,7 +5983,6 @@ Voltage Ripple: 100mVpp
 <junction x="129.54" y="78.74"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="TS"/>
 <wire x1="101.6" y1="99.06" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
@@ -6004,6 +6009,7 @@ Voltage Ripple: 100mVpp
 <pinref part="M2" gate="G$1" pin="D3"/>
 <wire x1="137.16" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
 <junction x="137.16" y="76.2"/>
+<pinref part="U2" gate="G$1" pin="TS"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -6041,7 +6047,6 @@ Voltage Ripple: 100mVpp
 </net>
 <net name="BG" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="BG"/>
 <label x="104.14" y="66.04" size="1.778" layer="95"/>
 <pinref part="M2" gate="G$1" pin="G"/>
 <wire x1="96.52" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
@@ -6049,11 +6054,11 @@ Voltage Ripple: 100mVpp
 <wire x1="109.22" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="50.8" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <junction x="109.22" y="66.04"/>
+<pinref part="U2" gate="G$1" pin="BG"/>
 </segment>
 </net>
 <net name="TG" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="TG"/>
 <wire x1="96.52" y1="76.2" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="88.9" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
@@ -6062,13 +6067,7 @@ Voltage Ripple: 100mVpp
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
 <junction x="96.52" y="88.9"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="43.18" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="TG"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
@@ -6093,15 +6092,18 @@ Voltage Ripple: 100mVpp
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="35.56" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="MOD"/>
 <wire x1="35.56" y1="45.72" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="35.56" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <junction x="35.56" y="35.56"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="33.02" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<junction x="58.42" y="35.56"/>
 </segment>
 </net>
 <net name="N$1" class="0">

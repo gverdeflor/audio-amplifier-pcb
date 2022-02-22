@@ -4950,7 +4950,7 @@ Created: 9/12/2017</description>
 <library name="Engs125_lib_UPDATEFeb22_with_logo">
 <packages>
 <package name="THAYER">
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="-0.01" y="7.97"/>
 <vertex x="-0.01" y="7.39"/>
 <vertex x="0.27" y="7.39"/>
@@ -4992,19 +4992,19 @@ Created: 9/12/2017</description>
 <vertex x="6.91" y="7.39"/>
 <vertex x="6.91" y="7.97"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="-0.01" y="7.39"/>
 <vertex x="-0.01" y="3.13"/>
 <vertex x="0.27" y="3.13"/>
 <vertex x="0.27" y="7.39"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="7.39"/>
 <vertex x="6.63" y="3.17"/>
 <vertex x="6.91" y="3.17"/>
 <vertex x="6.91" y="7.39"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="-0.01" y="3.13"/>
 <vertex x="0.01" y="2.95"/>
 <vertex x="0.07" y="2.69"/>
@@ -5054,7 +5054,7 @@ Created: 9/12/2017</description>
 <vertex x="1.07" y="1.27"/>
 <vertex x="0.91" y="1.43"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="3.17"/>
 <vertex x="6.57" y="2.91"/>
 <vertex x="6.51" y="2.71"/>
@@ -5098,7 +5098,7 @@ Created: 9/12/2017</description>
 <vertex x="6.89" y="2.97"/>
 <vertex x="6.91" y="3.17"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="1.9" y="7.6"/>
 <vertex x="1.48" y="5.89"/>
 <vertex x="1.03" y="4.36"/>
@@ -5112,7 +5112,7 @@ Created: 9/12/2017</description>
 <vertex x="2.26" y="6.14"/>
 <vertex x="2.13" y="6.63"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="0.27" y="5.89"/>
 <vertex x="0.27" y="5.34"/>
 <vertex x="0.57" y="5.37"/>
@@ -5121,7 +5121,7 @@ Created: 9/12/2017</description>
 <vertex x="1.34" y="5.43"/>
 <vertex x="1.48" y="5.89"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="2.33" y="5.89"/>
 <vertex x="2.43" y="5.51"/>
 <vertex x="2.55" y="5.52"/>
@@ -5142,25 +5142,25 @@ Created: 9/12/2017</description>
 <vertex x="6.63" y="5.8"/>
 <vertex x="6.63" y="5.89"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="5.58"/>
 <vertex x="2.82" y="4.23"/>
 <vertex x="2.95" y="3.8"/>
 <vertex x="6.63" y="5.46"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="5.15"/>
 <vertex x="2.44" y="1.93"/>
 <vertex x="3.18" y="1.75"/>
 <vertex x="6.63" y="4.97"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="4.6"/>
 <vertex x="5.1" y="1.99"/>
 <vertex x="5.75" y="1.99"/>
 <vertex x="6.63" y="4.33"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="1.63" y="2.66"/>
 <vertex x="1.63" y="2.03"/>
 <vertex x="1.63" y="1.99"/>
@@ -5168,7 +5168,7 @@ Created: 9/12/2017</description>
 <vertex x="2.17" y="2.67"/>
 <vertex x="1.63" y="2.67"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="0.89" y="1.94"/>
 <vertex x="0.98" y="1.97"/>
 <vertex x="1.09" y="1.99"/>
@@ -5225,7 +5225,7 @@ Created: 9/12/2017</description>
 <vertex x="1.29" y="1.74"/>
 <vertex x="1.06" y="1.72"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="5.41" y="1.43"/>
 <vertex x="4.77" y="1.42"/>
 <vertex x="4.63" y="1.4"/>
@@ -5272,7 +5272,7 @@ Created: 9/12/2017</description>
 <vertex x="4.85" y="1.18"/>
 <vertex x="5.03" y="1.19"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="2.72" y="6.95"/>
 <vertex x="2.72" y="7.04"/>
 <vertex x="3.01" y="7.09"/>
@@ -5280,7 +5280,7 @@ Created: 9/12/2017</description>
 <vertex x="2.87" y="6.39"/>
 <vertex x="2.87" y="6.95"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="3.49" y="7.09"/>
 <vertex x="3.41" y="7.06"/>
 <vertex x="3.39" y="7.05"/>
@@ -5334,19 +5334,19 @@ Created: 9/12/2017</description>
 <vertex x="3.56" y="6.97"/>
 <vertex x="3.55" y="7.09"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="3.55" y="6.97"/>
 <vertex x="3.95" y="6.97"/>
 <vertex x="3.95" y="7.09"/>
 <vertex x="3.55" y="7.09"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="3.55" y="6.81"/>
 <vertex x="3.55" y="6.69"/>
 <vertex x="3.96" y="6.69"/>
 <vertex x="3.96" y="6.81"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="4.97" y="7.09"/>
 <vertex x="5.03" y="6.99"/>
 <vertex x="4.81" y="6.98"/>
@@ -5393,7 +5393,7 @@ Created: 9/12/2017</description>
 <vertex x="4.71" y="7.08"/>
 <vertex x="4.75" y="7.09"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="5.29" y="7.09"/>
 <vertex x="5.29" y="6.83"/>
 <vertex x="5.43" y="6.83"/>

@@ -1763,7 +1763,7 @@ chip</description>
 <library name="Engs125_lib_UPDATEFeb22_with_logo">
 <packages>
 <package name="THAYER">
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="-0.01" y="7.97"/>
 <vertex x="-0.01" y="7.39"/>
 <vertex x="0.27" y="7.39"/>
@@ -1805,19 +1805,19 @@ chip</description>
 <vertex x="6.91" y="7.39"/>
 <vertex x="6.91" y="7.97"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="-0.01" y="7.39"/>
 <vertex x="-0.01" y="3.13"/>
 <vertex x="0.27" y="3.13"/>
 <vertex x="0.27" y="7.39"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="7.39"/>
 <vertex x="6.63" y="3.17"/>
 <vertex x="6.91" y="3.17"/>
 <vertex x="6.91" y="7.39"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="-0.01" y="3.13"/>
 <vertex x="0.01" y="2.95"/>
 <vertex x="0.07" y="2.69"/>
@@ -1867,7 +1867,7 @@ chip</description>
 <vertex x="1.07" y="1.27"/>
 <vertex x="0.91" y="1.43"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="3.17"/>
 <vertex x="6.57" y="2.91"/>
 <vertex x="6.51" y="2.71"/>
@@ -1911,7 +1911,7 @@ chip</description>
 <vertex x="6.89" y="2.97"/>
 <vertex x="6.91" y="3.17"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="1.9" y="7.6"/>
 <vertex x="1.48" y="5.89"/>
 <vertex x="1.03" y="4.36"/>
@@ -1925,7 +1925,7 @@ chip</description>
 <vertex x="2.26" y="6.14"/>
 <vertex x="2.13" y="6.63"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="0.27" y="5.89"/>
 <vertex x="0.27" y="5.34"/>
 <vertex x="0.57" y="5.37"/>
@@ -1934,7 +1934,7 @@ chip</description>
 <vertex x="1.34" y="5.43"/>
 <vertex x="1.48" y="5.89"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="2.33" y="5.89"/>
 <vertex x="2.43" y="5.51"/>
 <vertex x="2.55" y="5.52"/>
@@ -1955,25 +1955,25 @@ chip</description>
 <vertex x="6.63" y="5.8"/>
 <vertex x="6.63" y="5.89"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="5.58"/>
 <vertex x="2.82" y="4.23"/>
 <vertex x="2.95" y="3.8"/>
 <vertex x="6.63" y="5.46"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="5.15"/>
 <vertex x="2.44" y="1.93"/>
 <vertex x="3.18" y="1.75"/>
 <vertex x="6.63" y="4.97"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="6.63" y="4.6"/>
 <vertex x="5.1" y="1.99"/>
 <vertex x="5.75" y="1.99"/>
 <vertex x="6.63" y="4.33"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="1.63" y="2.66"/>
 <vertex x="1.63" y="2.03"/>
 <vertex x="1.63" y="1.99"/>
@@ -1981,7 +1981,7 @@ chip</description>
 <vertex x="2.17" y="2.67"/>
 <vertex x="1.63" y="2.67"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="0.89" y="1.94"/>
 <vertex x="0.98" y="1.97"/>
 <vertex x="1.09" y="1.99"/>
@@ -2038,7 +2038,7 @@ chip</description>
 <vertex x="1.29" y="1.74"/>
 <vertex x="1.06" y="1.72"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="5.41" y="1.43"/>
 <vertex x="4.77" y="1.42"/>
 <vertex x="4.63" y="1.4"/>
@@ -2085,7 +2085,7 @@ chip</description>
 <vertex x="4.85" y="1.18"/>
 <vertex x="5.03" y="1.19"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="2.72" y="6.95"/>
 <vertex x="2.72" y="7.04"/>
 <vertex x="3.01" y="7.09"/>
@@ -2093,7 +2093,7 @@ chip</description>
 <vertex x="2.87" y="6.39"/>
 <vertex x="2.87" y="6.95"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="3.49" y="7.09"/>
 <vertex x="3.41" y="7.06"/>
 <vertex x="3.39" y="7.05"/>
@@ -2147,19 +2147,19 @@ chip</description>
 <vertex x="3.56" y="6.97"/>
 <vertex x="3.55" y="7.09"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="3.55" y="6.97"/>
 <vertex x="3.95" y="6.97"/>
 <vertex x="3.95" y="7.09"/>
 <vertex x="3.55" y="7.09"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="3.55" y="6.81"/>
 <vertex x="3.55" y="6.69"/>
 <vertex x="3.96" y="6.69"/>
 <vertex x="3.96" y="6.81"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="4.97" y="7.09"/>
 <vertex x="5.03" y="6.99"/>
 <vertex x="4.81" y="6.98"/>
@@ -2206,7 +2206,7 @@ chip</description>
 <vertex x="4.71" y="7.08"/>
 <vertex x="4.75" y="7.09"/>
 </polygon>
-<polygon width="0.01" layer="27">
+<polygon width="0.01" layer="21">
 <vertex x="5.29" y="7.09"/>
 <vertex x="5.29" y="6.83"/>
 <vertex x="5.43" y="6.83"/>
@@ -2583,10 +2583,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.393" y="33.614" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="M1" library="Engs125_lib_NEW_UPDATE_USE_THIS_V2" package="PD-TDSON-8" value="BSC050NE2LSATMA1" x="40.132" y="28.956" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.94935" y="32.77335" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="35.82135" y="27.43935" size="1.016" layer="25" font="fixed" rot="R270"/>
 </element>
 <element name="M2" library="Engs125_lib_NEW_UPDATE_USE_THIS_V2" package="PD-TDSON-8" value="BSC050NE2LSATMA1" x="47.371" y="29.591" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.18835" y="25.77365" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="52.96635" y="30.72665" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -2752,23 +2752,15 @@ design rules under a new name.</description>
 <contactref element="L1" pad="1"/>
 <contactref element="C1" pad="2"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="39.243" y="31.242"/>
-<vertex x="39.243" y="38.481"/>
-<vertex x="40.259" y="39.497"/>
-<vertex x="46.863" y="39.497"/>
-<vertex x="48.26" y="38.1"/>
-<vertex x="49.022" y="37.338"/>
-<vertex x="49.022" y="30.226"/>
+<vertex x="39.243" y="31.115"/>
+<vertex x="39.243" y="39.497"/>
+<vertex x="49.022" y="39.497"/>
 <vertex x="49.022" y="27.305"/>
 <vertex x="48.514" y="26.797"/>
 <vertex x="44.323" y="26.797"/>
-<vertex x="44.069" y="27.051"/>
 <vertex x="43.561" y="27.559"/>
 <vertex x="43.561" y="30.607"/>
 <vertex x="43.053" y="31.115"/>
-<vertex x="42.545" y="31.115"/>
-<vertex x="39.624" y="31.115"/>
-<vertex x="39.243" y="31.115"/>
 </polygon>
 <wire x1="37.592" y1="33.274" x2="42.291" y2="33.274" width="0.508" layer="1"/>
 <contactref element="U2" pad="2"/>

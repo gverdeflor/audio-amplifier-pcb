@@ -65,36 +65,6 @@
 <libraries>
 <library name="Engs125_library">
 <packages>
-<package name="DCB8">
-<description>This package is for Linear Tehcnology part LTC449 gate driver.
-Creation date: 9/12/2017</description>
-<smd name="1" x="-0.675" y="-1.4" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-0.225" y="-1.4" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="3" x="0.225" y="-1.4" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="4" x="0.675" y="-1.4" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="8" x="-0.675" y="1.4" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="7" x="-0.225" y="1.4" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="6" x="0.225" y="1.4" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<smd name="5" x="0.675" y="1.4" dx="0.25" dy="0.7" layer="1" stop="no" cream="no"/>
-<text x="-1.15" y="-1.31" size="0.6096" layer="27" rot="R90">&gt;Value</text>
-<text x="1.77" y="-1.31" size="0.6096" layer="25" rot="R90">&gt;Name</text>
-<wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1" y1="1.5" x2="1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.127" layer="21"/>
-<smd name="9" x="0" y="0" dx="1.35" dy="1.65" layer="1" stop="no" cream="no"/>
-<wire x1="-0.75" y1="-0.95" x2="-0.25" y2="-0.95" width="0.127" layer="21"/>
-<rectangle x1="-0.81" y1="-1.75" x2="-0.55" y2="-1.04" layer="29"/>
-<rectangle x1="-0.36" y1="-1.75" x2="-0.1" y2="-1.04" layer="29"/>
-<rectangle x1="0.09" y1="-1.75" x2="0.35" y2="-1.04" layer="29"/>
-<rectangle x1="0.54" y1="-1.75" x2="0.8" y2="-1.04" layer="29"/>
-<rectangle x1="0.7" y1="-1.85" x2="0.96" y2="-1.14" layer="30" rot="R180"/>
-<rectangle x1="0.54" y1="1.05" x2="0.8" y2="1.76" layer="29"/>
-<rectangle x1="0.09" y1="1.05" x2="0.35" y2="1.76" layer="29"/>
-<rectangle x1="-0.36" y1="1.05" x2="-0.1" y2="1.76" layer="29"/>
-<rectangle x1="-0.81" y1="1.05" x2="-0.55" y2="1.76" layer="29"/>
-<rectangle x1="-0.67" y1="-0.83" x2="0.68" y2="0.83" layer="29"/>
-</package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
@@ -147,22 +117,6 @@ Creation date: 9/12/2017</description>
 </package>
 </packages>
 <symbols>
-<symbol name="LTC4449">
-<pin name="TG" x="-15.24" y="7.62" length="middle"/>
-<pin name="TS" x="-15.24" y="2.54" length="middle"/>
-<pin name="BG" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="-15.24" y="-7.62" length="middle"/>
-<pin name="BOOST" x="12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="VCC" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="VLOGIC" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="IN" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<wire x1="-10.16" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<text x="-10.16" y="12.7" size="1.778" layer="94">&gt;NAME</text>
-<text x="-10.16" y="-15.24" size="1.778" layer="94">&gt;Value</text>
-</symbol>
 <symbol name="GND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
@@ -208,32 +162,6 @@ Created: 9/12/2017</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LTC4449" prefix="U">
-<description>Linear Technology LTC4449 gate driver, a high frequency gate driver that
-is designed to drive two N-Channel MOSFETs in a synchronous DC/DC converter.2mm by 3mm DFN package. 
-
-Date created: 10/4/2017</description>
-<gates>
-<gate name="G$1" symbol="LTC4449" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DCB8">
-<connects>
-<connect gate="G$1" pin="BG" pad="3"/>
-<connect gate="G$1" pin="BOOST" pad="8"/>
-<connect gate="G$1" pin="GND" pad="4 9"/>
-<connect gate="G$1" pin="IN" pad="5"/>
-<connect gate="G$1" pin="TG" pad="1"/>
-<connect gate="G$1" pin="TS" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="7"/>
-<connect gate="G$1" pin="VLOGIC" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GND" prefix="SUPPLY">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -5596,6 +5524,74 @@ Created: 9/12/2017</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Engs125_lib_NEW_UPDATE_USE_THIS">
+<packages>
+<package name="LTC4442">
+<smd name="9" x="0" y="0" dx="2.083" dy="2.794" layer="1" rot="R90"/>
+<smd name="2" x="-0.325" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="3" x="0.325" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="4" x="0.975" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="1" x="-0.975" y="2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="7" x="-0.325" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="6" x="0.325" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="5" x="0.975" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<smd name="8" x="-0.975" y="-2.05" dx="0.9" dy="0.42" layer="1" rot="R90"/>
+<circle x="-1.05" y="0.9" radius="0.111803125" width="0" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<text x="1.5" y="2.2" size="0.254" layer="25">&gt;NAME</text>
+<text x="1.55" y="-1.85" size="0.254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LTC4442">
+<pin name="TG" x="-12.7" y="5.08" length="middle"/>
+<pin name="TS" x="-12.7" y="0" length="middle"/>
+<pin name="BG" x="-12.7" y="-5.08" length="middle"/>
+<pin name="GND" x="-12.7" y="-10.16" length="middle"/>
+<pin name="IN" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="VLOGIC" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="BOOST" x="15.24" y="5.08" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="12.7" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LTC4442" prefix="U" uservalue="yes">
+<description>LTC4442 (LTC4442-1) Synchronous N-channel  Gate Driver
+
+Vcc = 6V - 9.5V
+Vin max = 38V</description>
+<gates>
+<gate name="G$1" symbol="LTC4442" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="LTC4442">
+<connects>
+<connect gate="G$1" pin="BG" pad="3"/>
+<connect gate="G$1" pin="BOOST" pad="8"/>
+<connect gate="G$1" pin="GND" pad="4 9"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="TG" pad="1"/>
+<connect gate="G$1" pin="TS" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
+<connect gate="G$1" pin="VLOGIC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5606,7 +5602,7 @@ Created: 9/12/2017</description>
 </class>
 </classes>
 <parts>
-<part name="U2" library="Engs125_library" deviceset="LTC4449" device=""/>
+<part name="U2" library="Engs125_lib_NEW_UPDATE_USE_THIS" deviceset="LTC4442" device="" value="LTC4442"/>
 <part name="SUPPLY1" library="Engs125_library" deviceset="GND" device=""/>
 <part name="C3" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
 <part name="C4" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
@@ -5664,9 +5660,9 @@ Voltage Ripple: 100mVpp
 <text x="114.3" y="45.72" size="1.778" layer="97" rot="R90">BG Probe</text>
 </plain>
 <instances>
-<instance part="U2" gate="G$1" x="81.28" y="68.58" smashed="yes" rot="MR0">
-<attribute name="NAME" x="91.44" y="81.28" size="1.778" layer="97" rot="MR0"/>
-<attribute name="VALUE" x="91.44" y="53.34" size="1.778" layer="96" rot="MR0"/>
+<instance part="U2" gate="G$1" x="83.82" y="71.12" smashed="yes" rot="MR0">
+<attribute name="NAME" x="77.47" y="79.756" size="1.778" layer="97" rot="MR0"/>
+<attribute name="VALUE" x="83.82" y="55.372" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="-20.32" y="38.1" smashed="yes">
 <attribute name="VALUE" x="-22.225" y="34.925" size="1.778" layer="96"/>

@@ -5602,7 +5602,7 @@ Vin max = 38V</description>
 </class>
 </classes>
 <parts>
-<part name="U2" library="Engs125_lib_NEW_UPDATE_USE_THIS" deviceset="LTC4442" device="" value="LTC4442"/>
+<part name="U2" library="Engs125_lib_NEW_UPDATE_USE_THIS" deviceset="LTC4442" device=""/>
 <part name="SUPPLY1" library="Engs125_library" deviceset="GND" device=""/>
 <part name="C3" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
 <part name="C4" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
@@ -5661,8 +5661,8 @@ Voltage Ripple: 100mVpp
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="83.82" y="71.12" smashed="yes" rot="MR0">
-<attribute name="NAME" x="77.47" y="79.756" size="1.778" layer="97" rot="MR0"/>
-<attribute name="VALUE" x="83.82" y="55.372" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="93.98" y="83.82" size="1.778" layer="97" rot="MR0"/>
+<attribute name="VALUE" x="93.98" y="55.88" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="-20.32" y="38.1" smashed="yes">
 <attribute name="VALUE" x="-22.225" y="34.925" size="1.778" layer="96"/>

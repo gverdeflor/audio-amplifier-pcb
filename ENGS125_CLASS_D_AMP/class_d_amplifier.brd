@@ -83,9 +83,9 @@ Professor Stauth
 Class D Audio Amplifier
 </text>
 <text x="24.638" y="52.07" size="1.016" layer="21" font="fixed">AUDIO IN</text>
-<text x="1.27" y="40.767" size="1.016" layer="21" font="fixed">GATE DRIVE SUPPLY</text>
-<text x="33.782" y="13.843" size="1.016" layer="21" font="fixed" rot="R180">INPUT SUPPLY</text>
-<text x="87.503" y="43.815" size="1.016" layer="21" font="fixed" rot="R180">AUDIO OUT</text>
+<text x="1.778" y="40.767" size="1.016" layer="21" font="fixed">GATE DRIVE SUPPLY</text>
+<text x="32.512" y="11.684" size="1.016" layer="21" font="fixed" rot="R270">INPUT SUPPLY</text>
+<text x="88.138" y="43.942" size="1.016" layer="21" font="fixed" rot="R180">AUDIO OUT</text>
 <text x="30.734" y="35.941" size="1.016" layer="21" font="fixed" rot="R90">PWM OUT</text>
 <polygon width="0.0000125" layer="25">
 <vertex x="71.11700625" y="57.1492125"/>
@@ -469,14 +469,19 @@ Class D Audio Amplifier
 <text x="2.159" y="2.159" size="1.016" layer="21" font="fixed" distance="51">DESIGNERS:
 Sergio Bobadilla
 Garth Verdeflor</text>
-<text x="50.419" y="13.589" size="1.016" layer="21" font="fixed" rot="R180">GND</text>
-<text x="82.804" y="27.686" size="1.016" layer="21" font="fixed" rot="R180">GND</text>
-<text x="7.239" y="25.146" size="1.016" layer="21" font="fixed">GND</text>
-<text x="21.336" y="22.225" size="1.016" layer="21" font="fixed">TG</text>
-<text x="28.194" y="22.225" size="1.016" layer="21" font="fixed">BG</text>
-<text x="11.176" y="47.879" size="1.016" layer="21" font="fixed">GND</text>
-<text x="20.574" y="6.35" size="1.016" layer="21" font="fixed">GND</text>
-<text x="63.119" y="19.939" size="1.016" layer="21" font="fixed">GND</text>
+<text x="49.149" y="4.064" size="1.016" layer="21" font="fixed" rot="R270">GND</text>
+<text x="87.884" y="27.94" size="1.016" layer="21" font="fixed" rot="R180">GND</text>
+<text x="1.905" y="25.4" size="1.016" layer="21" font="fixed">GND</text>
+<text x="23.876" y="20.066" size="1.016" layer="21" font="fixed">TG</text>
+<text x="30.607" y="20.193" size="1.016" layer="21" font="fixed">BG</text>
+<text x="15.24" y="46.99" size="1.016" layer="21" font="fixed">GND</text>
+<text x="23.495" y="11.557" size="1.016" layer="21" font="fixed">GND</text>
+<text x="67.183" y="12.827" size="1.016" layer="21" font="fixed">GND</text>
+<text x="65.532" y="2.54" size="0.9144" layer="21" font="fixed">Input Supply: 12V
+Output Voltage: 6V
+Tracking Bandwidth: 1Hz-20kHz 
+Efficiency: &gt;95% @1.5Adc
+Voltage Ripple: &lt;100mVpp</text>
 </plain>
 <libraries>
 <library name="Engs125_library">
@@ -2509,24 +2514,24 @@ design rules under a new name.</description>
 <element name="L1" library="Engs125_library" package="SER2900" value="33u" x="48.26" y="50.8" smashed="yes">
 <attribute name="NAME" x="34.417" y="61.976" size="1.016" layer="25" font="fixed"/>
 </element>
-<element name="U2" library="Engs125_lib_NEW_UPDATE_USE_THIS" package="LTC4442" value="LTC4442" x="32.004" y="32.004" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.695" y="30.726" size="1.016" layer="25" font="fixed" rot="R180"/>
+<element name="U2" library="Engs125_lib_NEW_UPDATE_USE_THIS" package="LTC4442" value="" x="32.004" y="32.004" smashed="yes" rot="R270">
+<attribute name="NAME" x="30.313" y="33.282" size="1.016" layer="25" font="fixed"/>
 </element>
 <element name="JP1" library="Engs125_lib_UPDATEFeb22" package="1X02" value="" x="27.94" y="49.657" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.0538" y="50.8762" size="1.016" layer="25" font="fixed" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="30.48" y="52.832" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J1" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="10.287" y="33.782" smashed="yes">
-<attribute name="NAME" x="15.367" y="39.116" size="1.016" layer="25" font="fixed"/>
+<attribute name="NAME" x="15.24" y="29.083" size="1.016" layer="25" font="fixed" rot="R270"/>
 </element>
 <element name="J2" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="10.16" y="18.415" smashed="yes">
-<attribute name="NAME" x="13.208" y="25.146" size="1.016" layer="25" font="fixed"/>
+<attribute name="NAME" x="16.129" y="12.065" size="1.016" layer="25" font="fixed" rot="R90"/>
 </element>
 <element name="J3" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="40.64" y="11.43" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.782" y="15.621" size="1.016" layer="25" font="fixed" rot="R180"/>
+<attribute name="NAME" x="47.244" y="17.399" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="J4" library="Engs125_lib_UPDATEFeb22" package="CT3151SP2_PCB_MOUNT" value="BANANA_JACK_CT3151" x="57.15" y="11.43" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.419" y="15.621" size="1.016" layer="25" font="fixed" rot="R180"/>
+<attribute name="NAME" x="63.754" y="17.526" size="1.016" layer="25" font="fixed" rot="R180"/>
 </element>
 <element name="U1" library="Engs125_lib_UPDATEFeb22" package="TSOT23-6" value="LTC6992TSOT-23" x="28.194" y="34.29" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.9085" y="34.3535" size="1.016" layer="25" font="fixed" ratio="10"/>
@@ -2567,17 +2572,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.4038" y="24.1808" size="1.016" layer="25" font="fixed" ratio="10"/>
 <attribute name="VALUE" x="30.226" y="19.431" size="1.27" layer="27"/>
 </element>
-<element name="JP5" library="Engs125_lib_UPDATEFeb22" package="1X01" value="" x="24.638" y="6.731" smashed="yes">
-<attribute name="NAME" x="23.2918" y="8.5598" size="1.016" layer="25" font="fixed" ratio="10"/>
-<attribute name="VALUE" x="23.368" y="3.556" size="1.27" layer="27"/>
+<element name="JP5" library="Engs125_lib_UPDATEFeb22" package="1X01" value="" x="24.638" y="14.351" smashed="yes">
+<attribute name="NAME" x="23.2918" y="16.1798" size="1.016" layer="25" font="fixed" ratio="10"/>
+<attribute name="VALUE" x="23.368" y="11.176" size="1.27" layer="27"/>
 </element>
-<element name="JP6" library="Engs125_lib_UPDATEFeb22" package="1X01" value="" x="67.31" y="20.32" smashed="yes">
-<attribute name="NAME" x="65.9638" y="22.1488" size="1.016" layer="25" font="fixed" ratio="10"/>
-<attribute name="VALUE" x="66.04" y="17.145" size="1.27" layer="27"/>
+<element name="JP6" library="Engs125_lib_UPDATEFeb22" package="1X01" value="" x="68.453" y="15.494" smashed="yes">
+<attribute name="NAME" x="67.1068" y="17.3228" size="1.016" layer="25" font="fixed" ratio="10"/>
+<attribute name="VALUE" x="67.183" y="12.319" size="1.27" layer="27"/>
 </element>
-<element name="JP7" library="Engs125_lib_UPDATEFeb22" package="1X01" value="" x="15.24" y="48.26" smashed="yes">
-<attribute name="NAME" x="13.8938" y="50.0888" size="1.016" layer="25" font="fixed" ratio="10"/>
-<attribute name="VALUE" x="13.97" y="45.085" size="1.27" layer="27"/>
+<element name="JP7" library="Engs125_lib_UPDATEFeb22" package="1X01" value="" x="16.51" y="49.53" smashed="yes">
+<attribute name="NAME" x="15.1638" y="51.3588" size="1.016" layer="25" font="fixed" ratio="10"/>
+<attribute name="VALUE" x="15.24" y="46.355" size="1.27" layer="27"/>
 </element>
 <element name="C9" library="Engs125_library" package="C0805" value="1uF" x="45.339" y="20.066" smashed="yes">
 <attribute name="NAME" x="41.529" y="17.145" size="1.016" layer="25" font="fixed"/>
@@ -2665,8 +2670,8 @@ design rules under a new name.</description>
 <via x="53.848" y="24.003" extent="1-16" drill="0.508" diameter="1.27"/>
 <via x="52.451" y="22.352" extent="1-16" drill="0.508" diameter="1.27"/>
 <via x="55.372" y="25.019" extent="1-16" drill="0.508" diameter="1.27"/>
-<wire x1="29.954" y1="32.979" x2="32.004" y2="32.004" width="0" layer="19" extent="1-1"/>
-<wire x1="28.194" y1="34.986" x2="29.954" y2="32.979" width="0" layer="19" extent="1-16"/>
+<wire x1="32.004" y1="32.004" x2="34.054" y2="31.029" width="0" layer="19" extent="1-1"/>
+<wire x1="28.194" y1="34.986" x2="32.004" y2="32.004" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VGG">
 <contactref element="C3" pad="1"/>
@@ -2682,7 +2687,7 @@ design rules under a new name.</description>
 <via x="25.527" y="31.369" extent="1-16" drill="0.508" diameter="1.27"/>
 <via x="29.083" y="31.369" extent="1-16" drill="0.508" diameter="1.27"/>
 <via x="27.305" y="31.369" extent="1-16" drill="0.508" diameter="1.27"/>
-<wire x1="34.054" y1="32.329" x2="34.054" y2="31.679" width="0.254" layer="1"/>
+<wire x1="29.954" y1="31.679" x2="29.954" y2="32.329" width="0.254" layer="1"/>
 <polygon width="0.127" layer="1" isolate="0.3048" thermals="no">
 <vertex x="5.715" y="30.353"/>
 <vertex x="5.715" y="37.338"/>
@@ -2704,15 +2709,14 @@ design rules under a new name.</description>
 <vertex x="30.099" y="28.956"/>
 <vertex x="25.146" y="28.956"/>
 </polygon>
-<wire x1="29.083" y1="31.369" x2="34.054" y2="31.679" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VPWM">
 <contactref element="U2" pad="5"/>
 <contactref element="U1" pad="6"/>
 <contactref element="JP2" pad="1"/>
 <wire x1="32.385" y1="36.703" x2="30.604" y2="34.922" width="0.254" layer="1"/>
-<wire x1="30.604" y1="34.922" x2="34.054" y2="32.979" width="0.254" layer="1"/>
-<wire x1="34.054" y1="32.979" x2="29.455" y2="32.679" width="0.254" layer="1"/>
+<wire x1="30.604" y1="34.922" x2="29.954" y2="31.029" width="0.254" layer="1"/>
+<wire x1="29.954" y1="31.029" x2="29.455" y2="32.679" width="0.254" layer="1"/>
 <wire x1="29.455" y1="32.679" x2="29.144" y2="32.99" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
@@ -2721,7 +2725,7 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <via x="30.607" y="28.321" extent="1-16" drill="0.381" diameter="0.762"/>
 <wire x1="30.607" y1="28.321" x2="30.604" y2="28.324" width="0.254" layer="1"/>
-<wire x1="30.604" y1="28.324" x2="34.054" y2="31.029" width="0.254" layer="1"/>
+<wire x1="30.604" y1="28.324" x2="29.954" y2="32.979" width="0.254" layer="1"/>
 <wire x1="32.197" y1="28.829" x2="31.115" y2="28.829" width="0.508" layer="16"/>
 <wire x1="30.607" y1="28.321" x2="31.115" y2="28.829" width="0.508" layer="16"/>
 <wire x1="23.241" y1="27.818" x2="23.49" y2="28.067" width="0.635" layer="1"/>
@@ -2760,7 +2764,7 @@ design rules under a new name.</description>
 <vertex x="39.243" y="31.115"/>
 </polygon>
 <via x="35.56" y="32.131" extent="1-16" drill="0.381" diameter="0.762"/>
-<wire x1="29.954" y1="31.679" x2="35.208" y2="31.779" width="0.254" layer="1"/>
+<wire x1="34.054" y1="32.329" x2="35.208" y2="31.779" width="0.254" layer="1"/>
 <wire x1="35.208" y1="31.779" x2="35.56" y2="32.131" width="0.254" layer="1"/>
 <wire x1="34.097" y1="28.829" x2="35.56" y2="30.292" width="0.635" layer="16"/>
 <wire x1="35.56" y1="30.292" x2="35.56" y2="32.131" width="0.635" layer="16"/>
@@ -2832,7 +2836,7 @@ design rules under a new name.</description>
 <wire x1="50.038" y1="32.893" x2="34.544" y2="32.893" width="0.381" layer="16"/>
 <via x="34.544" y="32.893" extent="1-16" drill="0.381" diameter="0.762"/>
 <wire x1="34.544" y1="32.893" x2="33.88" y2="32.229" width="0.254" layer="1"/>
-<wire x1="33.88" y1="32.229" x2="29.954" y2="32.329" width="0.254" layer="1"/>
+<wire x1="33.88" y1="32.229" x2="34.054" y2="31.679" width="0.254" layer="1"/>
 <contactref element="JP4" pad="1"/>
 <wire x1="34.544" y1="32.893" x2="33.147" y2="31.496" width="0.1524" layer="16"/>
 <wire x1="33.147" y1="31.496" x2="33.147" y2="24.384" width="0.1524" layer="16"/>
@@ -2843,10 +2847,10 @@ design rules under a new name.</description>
 <contactref element="U2" pad="1"/>
 <contactref element="M1" pad="4"/>
 <wire x1="38.227" y1="31.781" x2="38.227" y2="31.329" width="0.254" layer="1"/>
-<wire x1="38.227" y1="31.329" x2="29.954" y2="31.029" width="0.254" layer="1"/>
+<wire x1="38.227" y1="31.329" x2="34.054" y2="32.979" width="0.254" layer="1"/>
 <contactref element="JP3" pad="1"/>
 <wire x1="24.638" y1="22.606" x2="26.797" y2="22.606" width="0.1524" layer="1"/>
-<wire x1="33.404" y1="29.213" x2="29.954" y2="31.029" width="0.1524" layer="1"/>
+<wire x1="33.404" y1="29.213" x2="34.054" y2="32.979" width="0.1524" layer="1"/>
 <wire x1="26.797" y1="22.606" x2="33.404" y2="29.213" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$3">

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4737,55 +4737,6 @@ chip</description>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
-<package name="PG-TDSON-8">
-<wire x1="-3.175" y1="2.675" x2="3.175" y2="2.675" width="0.127" layer="51"/>
-<wire x1="3.175" y1="2.675" x2="3.175" y2="-2.675" width="0.127" layer="51"/>
-<wire x1="3.175" y1="-2.675" x2="-3.175" y2="-2.675" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="-2.675" x2="-3.175" y2="2.675" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="2.675" x2="3.175" y2="2.675" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="-2.675" x2="3.175" y2="-2.675" width="0.127" layer="21"/>
-<wire x1="-3.675" y1="2.925" x2="3.675" y2="2.925" width="0.05" layer="39"/>
-<wire x1="3.675" y1="2.925" x2="3.675" y2="-2.925" width="0.05" layer="39"/>
-<wire x1="3.675" y1="-2.925" x2="-3.675" y2="-2.925" width="0.05" layer="39"/>
-<wire x1="-3.675" y1="-2.925" x2="-3.675" y2="2.925" width="0.05" layer="39"/>
-<text x="-3.81735" y="3.81735" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81493125" y="-3.81493125" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-4.1" y="1.9" radius="0.1" width="0.2" layer="21"/>
-<polygon width="0.0001" layer="31">
-<vertex x="-0.95" y="1.6"/>
-<vertex x="0.55" y="1.6"/>
-<vertex x="0.55" y="0.1"/>
-<vertex x="-0.95" y="0.1"/>
-</polygon>
-<polygon width="0.0001" layer="31">
-<vertex x="0.75" y="1.6"/>
-<vertex x="0.75" y="0.1"/>
-<vertex x="2.25" y="0.1"/>
-<vertex x="2.25" y="1.6"/>
-</polygon>
-<polygon width="0.0001" layer="31">
-<vertex x="-0.95" y="-0.1"/>
-<vertex x="0.55" y="-0.1"/>
-<vertex x="0.55" y="-1.6"/>
-<vertex x="-0.95" y="-1.6"/>
-</polygon>
-<polygon width="0.0001" layer="31">
-<vertex x="0.75" y="-0.1"/>
-<vertex x="0.75" y="-1.6"/>
-<vertex x="2.25" y="-1.6"/>
-<vertex x="2.25" y="-0.1"/>
-</polygon>
-<circle x="-4.1" y="1.9" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-2.825" y="1.905" dx="1.2" dy="0.65" layer="1"/>
-<smd name="9" x="0.675" y="0" dx="4.5" dy="4.7" layer="1" cream="no"/>
-<smd name="2" x="-2.825" y="0.635" dx="1.2" dy="0.65" layer="1"/>
-<smd name="3" x="-2.825" y="-0.635" dx="1.2" dy="0.65" layer="1"/>
-<smd name="4" x="-2.825" y="-1.905" dx="1.2" dy="0.65" layer="1"/>
-<smd name="5" x="3.175" y="-1.995" dx="0.5" dy="0.7" layer="1"/>
-<smd name="6" x="3.175" y="-0.665" dx="0.5" dy="0.7" layer="1"/>
-<smd name="7" x="3.175" y="0.665" dx="0.5" dy="0.7" layer="1"/>
-<smd name="8" x="3.175" y="1.995" dx="0.5" dy="0.7" layer="1"/>
-</package>
 </packages>
 <symbols>
 <symbol name="PINHD2">
@@ -4874,32 +4825,6 @@ Created: 9/12/2017</description>
 <text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
 <text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-<symbol name="DPAK">
-<description>Schematic symbol for MOSFET with DPAK footprint.</description>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<pin name="G" x="-12.7" y="0" length="middle"/>
-<pin name="S" x="5.08" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="D" x="5.08" y="10.16" visible="pin" length="middle" rot="R270"/>
-<text x="-7.62" y="5.08" size="1.778" layer="96">&gt;Name</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;Value</text>
-<pin name="S1" x="7.62" y="-12.7" visible="off" length="middle" rot="R90"/>
-<pin name="S2" x="10.16" y="-12.7" visible="off" length="middle" rot="R90"/>
-<wire x1="5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<pin name="D1" x="7.62" y="10.16" visible="off" length="middle" rot="R270"/>
-<pin name="D2" x="10.16" y="10.16" visible="off" length="middle" rot="R270"/>
-<pin name="D3" x="12.7" y="10.16" visible="off" length="middle" rot="R270"/>
-<pin name="D4" x="15.24" y="10.16" visible="off" length="middle" rot="R270"/>
-<wire x1="5.08" y1="5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5013,29 +4938,6 @@ Created: 9/12/2017</description>
 <device name="" package="1X01">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BSC050NE2LSATMA1">
-<gates>
-<gate name="G$1" symbol="DPAK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PG-TDSON-8">
-<connects>
-<connect gate="G$1" pin="D" pad="5"/>
-<connect gate="G$1" pin="D1" pad="8"/>
-<connect gate="G$1" pin="D2" pad="9"/>
-<connect gate="G$1" pin="D3" pad="6"/>
-<connect gate="G$1" pin="D4" pad="7"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$1" pin="S1" pad="2"/>
-<connect gate="G$1" pin="S2" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5544,6 +5446,55 @@ Created: 9/12/2017</description>
 <text x="1.5" y="2.2" size="0.254" layer="25">&gt;NAME</text>
 <text x="1.55" y="-1.85" size="0.254" layer="27">&gt;VALUE</text>
 </package>
+<package name="PD-TDSON-8">
+<wire x1="-3.175" y1="2.675" x2="3.175" y2="2.675" width="0.127" layer="51"/>
+<wire x1="3.175" y1="2.675" x2="3.175" y2="-2.675" width="0.127" layer="51"/>
+<wire x1="3.175" y1="-2.675" x2="-3.175" y2="-2.675" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-2.675" x2="-3.175" y2="2.675" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="2.675" x2="3.175" y2="2.675" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-2.675" x2="3.175" y2="-2.675" width="0.127" layer="21"/>
+<wire x1="-3.675" y1="2.925" x2="3.675" y2="2.925" width="0.05" layer="39"/>
+<wire x1="3.675" y1="2.925" x2="3.675" y2="-2.925" width="0.05" layer="39"/>
+<wire x1="3.675" y1="-2.925" x2="-3.675" y2="-2.925" width="0.05" layer="39"/>
+<wire x1="-3.675" y1="-2.925" x2="-3.675" y2="2.925" width="0.05" layer="39"/>
+<text x="-3.81735" y="3.81735" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81493125" y="-3.81493125" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<circle x="-4.1" y="1.9" radius="0.1" width="0.2" layer="21"/>
+<polygon width="0.0001" layer="31">
+<vertex x="-0.95" y="1.6"/>
+<vertex x="0.55" y="1.6"/>
+<vertex x="0.55" y="0.1"/>
+<vertex x="-0.95" y="0.1"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="0.75" y="1.6"/>
+<vertex x="0.75" y="0.1"/>
+<vertex x="2.25" y="0.1"/>
+<vertex x="2.25" y="1.6"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="-0.95" y="-0.1"/>
+<vertex x="0.55" y="-0.1"/>
+<vertex x="0.55" y="-1.6"/>
+<vertex x="-0.95" y="-1.6"/>
+</polygon>
+<polygon width="0.0001" layer="31">
+<vertex x="0.75" y="-0.1"/>
+<vertex x="0.75" y="-1.6"/>
+<vertex x="2.25" y="-1.6"/>
+<vertex x="2.25" y="-0.1"/>
+</polygon>
+<circle x="-4.1" y="1.9" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-2.825" y="1.905" dx="1.2" dy="0.65" layer="1"/>
+<smd name="9" x="0.675" y="0" dx="4.5" dy="4.7" layer="1" cream="no"/>
+<smd name="2" x="-2.825" y="0.635" dx="1.2" dy="0.65" layer="1"/>
+<smd name="3" x="-2.825" y="-0.635" dx="1.2" dy="0.65" layer="1"/>
+<smd name="4" x="-2.825" y="-1.905" dx="1.2" dy="0.65" layer="1"/>
+<smd name="5" x="3.175" y="-1.995" dx="0.5" dy="0.7" layer="1"/>
+<smd name="6" x="3.175" y="-0.665" dx="0.5" dy="0.7" layer="1"/>
+<smd name="7" x="3.175" y="0.665" dx="0.5" dy="0.7" layer="1"/>
+<smd name="8" x="3.175" y="1.995" dx="0.5" dy="0.7" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LTC4442">
@@ -5561,6 +5512,23 @@ Created: 9/12/2017</description>
 <wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <text x="12.7" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MOSFET_MULTIPIN">
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<pin name="G" x="-10.16" y="0" visible="pin" length="middle"/>
+<pin name="S*3" x="7.62" y="-12.7" visible="pin" length="middle" rot="R90"/>
+<pin name="D*5" x="7.62" y="10.16" visible="pin" length="middle" rot="R270"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5583,6 +5551,23 @@ Vin max = 38V</description>
 <connect gate="G$1" pin="TS" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="7"/>
 <connect gate="G$1" pin="VLOGIC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSC050NE2LSATMA1">
+<gates>
+<gate name="G$1" symbol="MOSFET_MULTIPIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PD-TDSON-8">
+<connects>
+<connect gate="G$1" pin="D*5" pad="5 6 7 8 9"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S*3" pad="1 2 3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5628,8 +5613,6 @@ Vin max = 38V</description>
 <part name="R1" library="Engs125_lib_UPDATEFeb22" deviceset="TRIM_US-" device="CT6"/>
 <part name="R2" library="Engs125_lib_UPDATEFeb22" deviceset="R-US" device="" value=""/>
 <part name="JP2" library="Engs125_lib_UPDATEFeb22" deviceset="PINHD-1X1" device=""/>
-<part name="M1" library="Engs125_lib_UPDATEFeb22" deviceset="BSC050NE2LSATMA1" device=""/>
-<part name="M2" library="Engs125_lib_UPDATEFeb22" deviceset="BSC050NE2LSATMA1" device=""/>
 <part name="J5" library="Engs125_lib_UPDATEFeb22" deviceset="BANANA_JACK_CT3151" device=""/>
 <part name="J6" library="Engs125_lib_UPDATEFeb22" deviceset="BANANA_JACK_CT3151" device=""/>
 <part name="C8" library="Engs125_library" deviceset="C-US" device="" value="0.1u"/>
@@ -5644,6 +5627,8 @@ Vin max = 38V</description>
 <part name="C9" library="Engs125_library" deviceset="C-US" device="" value="1uF"/>
 <part name="SUPPLY2" library="Engs125_library" deviceset="GND" device=""/>
 <part name="U2" library="Engs125_lib_NEW_UPDATE_USE_THIS_V2" deviceset="LTC4442" device="" value="LTC4442-MSOP8"/>
+<part name="M1" library="Engs125_lib_NEW_UPDATE_USE_THIS_V2" deviceset="BSC050NE2LSATMA1" device=""/>
+<part name="M2" library="Engs125_lib_NEW_UPDATE_USE_THIS_V2" deviceset="BSC050NE2LSATMA1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5756,14 +5741,6 @@ Voltage Ripple: 100mVpp
 <attribute name="NAME" x="57.15" y="51.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="M1" gate="G$1" x="124.46" y="93.98" smashed="yes">
-<attribute name="NAME" x="116.84" y="99.06" size="1.778" layer="96"/>
-<attribute name="VALUE" x="137.16" y="93.98" size="1.778" layer="96"/>
-</instance>
-<instance part="M2" gate="G$1" x="124.46" y="66.04" smashed="yes">
-<attribute name="NAME" x="116.84" y="71.12" size="1.778" layer="96"/>
-<attribute name="VALUE" x="137.16" y="63.5" size="1.778" layer="96"/>
-</instance>
 <instance part="J5" gate="G$1" x="213.36" y="78.74" smashed="yes" rot="R180">
 <attribute name="VALUE" x="214.06" y="82.24" size="0.8128" layer="96" rot="R180"/>
 <attribute name="NAME" x="213.96" y="83.54" size="0.8128" layer="95" rot="R180"/>
@@ -5813,6 +5790,14 @@ Voltage Ripple: 100mVpp
 <instance part="U2" gate="G$1" x="81.28" y="71.12" smashed="yes">
 <attribute name="NAME" x="73.66" y="79.248" size="1.778" layer="95"/>
 <attribute name="VALUE" x="73.66" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="M1" gate="G$1" x="121.92" y="93.98" smashed="yes">
+<attribute name="NAME" x="119.38" y="99.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="132.08" y="93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="M2" gate="G$1" x="121.92" y="66.04" smashed="yes">
+<attribute name="NAME" x="119.38" y="71.12" size="1.778" layer="95"/>
+<attribute name="VALUE" x="132.08" y="63.5" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5871,14 +5856,8 @@ Voltage Ripple: 100mVpp
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<pinref part="M2" gate="G$1" pin="S"/>
-<junction x="129.54" y="53.34"/>
-<pinref part="M2" gate="G$1" pin="S2"/>
-<wire x1="134.62" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="M2" gate="G$1" pin="S1"/>
-<junction x="132.08" y="53.34"/>
-<wire x1="132.08" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="53.34" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="M2" gate="G$1" pin="S*3"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="IN"/>
@@ -5989,27 +5968,9 @@ Voltage Ripple: 100mVpp
 <wire x1="129.54" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <junction x="101.6" y="78.74"/>
 <label x="134.62" y="78.74" size="1.778" layer="95"/>
-<pinref part="M1" gate="G$1" pin="S"/>
-<pinref part="M2" gate="G$1" pin="D"/>
-<pinref part="M2" gate="G$1" pin="D2"/>
-<wire x1="134.62" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<junction x="129.54" y="76.2"/>
-<pinref part="M2" gate="G$1" pin="D1"/>
-<wire x1="132.08" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
-<junction x="132.08" y="76.2"/>
-<pinref part="M1" gate="G$1" pin="S2"/>
-<wire x1="134.62" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
-<junction x="129.54" y="81.28"/>
-<pinref part="M1" gate="G$1" pin="S1"/>
-<wire x1="132.08" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
-<junction x="132.08" y="81.28"/>
-<pinref part="M2" gate="G$1" pin="D4"/>
-<wire x1="134.62" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
-<junction x="134.62" y="76.2"/>
-<pinref part="M2" gate="G$1" pin="D3"/>
-<wire x1="137.16" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
-<junction x="137.16" y="76.2"/>
 <pinref part="U2" gate="G$1" pin="TS"/>
+<pinref part="M1" gate="G$1" pin="S*3"/>
+<pinref part="M2" gate="G$1" pin="D*5"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -6027,34 +5988,22 @@ Voltage Ripple: 100mVpp
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="129.54" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="IN"/>
-<pinref part="M1" gate="G$1" pin="D"/>
-<pinref part="M1" gate="G$1" pin="D2"/>
-<wire x1="134.62" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
-<junction x="129.54" y="104.14"/>
-<pinref part="M1" gate="G$1" pin="D1"/>
-<wire x1="132.08" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
-<junction x="132.08" y="104.14"/>
-<pinref part="M1" gate="G$1" pin="D4"/>
-<wire x1="134.62" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
-<junction x="134.62" y="104.14"/>
-<pinref part="M1" gate="G$1" pin="D3"/>
-<wire x1="137.16" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-<junction x="137.16" y="104.14"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="124.46" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
 <junction x="119.38" y="129.54"/>
+<pinref part="M1" gate="G$1" pin="D*5"/>
 </segment>
 </net>
 <net name="BG" class="0">
 <segment>
 <label x="104.14" y="66.04" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="G"/>
 <wire x1="96.52" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="50.8" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <junction x="109.22" y="66.04"/>
 <pinref part="U2" gate="G$1" pin="BG"/>
+<pinref part="M2" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="TG" class="0">
@@ -6063,11 +6012,11 @@ Voltage Ripple: 100mVpp
 <wire x1="96.52" y1="88.9" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 <label x="104.14" y="93.98" size="1.778" layer="95"/>
-<pinref part="M1" gate="G$1" pin="G"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
 <junction x="96.52" y="88.9"/>
 <pinref part="U2" gate="G$1" pin="TG"/>
+<pinref part="M1" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
